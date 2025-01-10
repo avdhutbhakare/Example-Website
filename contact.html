@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+</head>
+<body>
+    <nav class="navbar" style="position: fixed; width:100%; z-index:1000;">
+        <ul
+            style="list-style-type: none; display:flex; justify-content:center; align-items:center; background-color:rgb(197,170,106); padding: 20px; margin: 0px; text-align:center; ">
+            <li style="margin: 0 15px;  padding-left: 15px">
+                <a style="color: rgb(76,60,60); font-size:x-large; text-decoration:none;" href="index.html">Home</a>
+            </li>
+            <li style="margin: 0 15px; padding-left: 15px">
+                <a style="color: rgb(76,60,60); text-decoration:none; font-size:x-large;" href="About us.html">About us</a>
+            </li>
+            <li style="margin: 0 15px; padding-left: 15px;">
+                <a style="color: rgb(76,60,60); text-decoration:none; font-size:x-large;" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div style="display: flex; text-align:center; flex-direction:column; align-items:center;">
+        <h1 style="padding-top: 80px; text-align:center">Want to connect with us?</h1>
+        <fieldset style="display: flex; justify-content:center; align-items:center;">
+            <legend>Submit this and we will connect with you</legend>
+            <form id="contactForm">
+                <label for="fname">Full Name:</label><br>
+                <input type="text" id="fname" autofocus><br><br>
+                <label for="fmail">Email Address:</label><br>
+                <input type="text" id="fmail"><br><br>
+                <label for="number">Phone Number:</label><br>
+                <input type="text" id="phone"><br><br>
+                <button type="submit" id="submit">Submit</button><br>
+            </form>
+
+        </fieldset><br><br><br>
+
+        <fieldset style="display: flex; text-align:center; flex-direction:column; align-items:center; width: 300px">
+            <legend>You can aslo contact us here</legend>
+            <ul>
+                <li><b>Email:</b> example@gmail.com</li>
+                <li><b>Contact No:</b> +1234567890</li>
+                <li style="text-align: right;"><b>Address:</b>
+                1234 Example Street,<br>
+                Example City, EX 12345<br>
+                Example Country.</li>
+            </ul>
+        </fieldset>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
